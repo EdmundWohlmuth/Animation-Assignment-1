@@ -626,7 +626,13 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: -8782663055596398277, guid: 7b2663be3cd7fe5418a60ce471d5c327, type: 2}
+    value: {fileID: 919145483}
+  - key: {fileID: 4435329360822173241, guid: 7b2663be3cd7fe5418a60ce471d5c327, type: 2}
+    value: {fileID: 1925346774}
+  - key: {fileID: 5658231980359887884, guid: 7b2663be3cd7fe5418a60ce471d5c327, type: 2}
+    value: {fileID: 41435268}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &713139990
@@ -656,6 +662,7 @@ GameObject:
   - component: {fileID: 919145482}
   - component: {fileID: 919145481}
   - component: {fileID: 919145480}
+  - component: {fileID: 919145483}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -670,7 +677,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919145478}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.4409835, y: -0.17255688, z: 1.6792593}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -739,6 +746,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919145478}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &919145483
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919145478}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1598193164
 GameObject:
   m_ObjectHideFlags: 0
